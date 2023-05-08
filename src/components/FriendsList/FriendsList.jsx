@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './FriendsList.module.css';
 
 const getBgColor = variant => {
@@ -32,3 +33,7 @@ export const FriendsList = ({ friends }) => (
     </ul>
   </>
 );
+
+FriendsList.propTypes = {
+  friends: PropTypes.array,
+};

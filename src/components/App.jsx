@@ -7,7 +7,7 @@ import friends from './FriendsList/friends';
 import { TransactionHistory } from './Transactions/TransactionHistory';
 import transactions from './Transactions/transactions';
 
-export const App = ({ children }) => {
+export const App = () => {
   return (
     <div
       style={{

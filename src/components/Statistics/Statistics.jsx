@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
-
 export const Statistics = ({ title, stats }) => (
   <>
     <section className={css.statistics}>
@@ -16,13 +15,14 @@ export const Statistics = ({ title, stats }) => (
                   ${Math.floor(Math.random() * 256)}
                 )`,
           };
-          
+
           return (
-          <li className={css.item} style={bckgrColor} key={stat.id}>
-            <span className={css.label}>{stat.label}</span>
-            <span className={css.percentage}>{stat.percentage}%</span>
-          </li>
-        )})}
+            <li className={css.item} style={bckgrColor} key={stat.id}>
+              <span className={css.label}>{stat.label}</span>
+              <span className={css.percentage}>{stat.percentage}%</span>
+            </li>
+          );
+        })}
       </ul>
     </section>
   </>

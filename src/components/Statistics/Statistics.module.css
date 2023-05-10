@@ -29,11 +29,7 @@
   color: white;
   border: 1px solid rgba(219, 219, 219, 0.411);
   background-color: blueviolet;
-  /* background-color: rgb(
-    Math.floor(Math.random() * 256),
-    Math.floor(Math.random() * 256),
-    Math.floor(Math.random() * 256)
-  /* background-color: rgba(Math.floor(Math.random() * 256),Math.floor(Math.random() * 256),Math.floor(Math.random() * 256)); */
+  text-shadow: 0 0 5px rgba(63, 63, 63, 0.477);
 }
 .label {
   color: inherit;
